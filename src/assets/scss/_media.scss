@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+    .logo {
+        font-size: $font-size-title;
+    }
+    .btn {
+        padding: .3125rem 3.125rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: $font-size-xl;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn {
+        padding: .3125rem .625rem;
+    }
+}
